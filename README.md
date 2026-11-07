@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/yukiiiiiiiiiiiiiiiiiiiiiii/andou/refs/heads/main/config.json
+https://raw.githubusercontent.com/yukiiiiiiiiiiiiiiiiiiiiiii/douer2/refs/heads/main/config.json
