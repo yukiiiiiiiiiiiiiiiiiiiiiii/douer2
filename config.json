@@ -1,0 +1,227 @@
+{
+    "spider": "./custom_spider.jar;md5;15e211852fb45b682e43218664e9f397",
+    "sites": [
+        {
+            "key": "douban",
+            "name": "「荐」豆瓣",
+            "type": 3,
+            "api": "csp_Douban",
+            "indexs": 1,
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "changeable": 0,
+            "timeout": 30
+        },
+        {
+            "key": "pan_config",
+            "name": "「设」配置",
+            "type": 3,
+            "api": "csp_PanConfig",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "timeout": 60
+        },
+        {
+            "key": "wanou",
+            "name": "「盘」玩偶",
+            "type": 3,
+            "api": "csp_Wogg",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": {
+                "site": "https://woggpan.888484.xyz",
+                "urls": [
+                    "https://www.wogg.net"
+                ],
+                "name": "玩偶"
+            }
+        },
+        {
+            "key": "muou",
+            "name": "「盘」木偶",
+            "type": 3,
+            "api": "csp_Wogg",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": {
+                "site": "https://666.666291.xyz",
+                "urls": [
+                    "https://123.666291.xyz",
+                    "https://333.333291.xyz",
+                    "https://www.muoua.top"
+                ],
+                "name": "木偶"
+            }
+        },
+        {
+            "key": "labi",
+            "name": "「盘」蜡笔",
+            "type": 3,
+            "api": "csp_Wogg",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": {
+                "site": "https://www.mmpanpan.site",
+                "urls": [
+                    "http://tvpanpan.site"
+                ],
+                "name": "蜡笔"
+            }
+        },
+        {
+            "key": "shandian",
+            "name": "「盘」闪电",
+            "type": 3,
+            "api": "csp_Wogg",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": {
+                "site": "http://sd.sduc.site",
+                "urls": [
+                    "http://shandian.blog"
+                ],
+                "name": "闪电"
+            }
+        },
+        {
+            "key": "duoduo",
+            "name": "「盘」多多",
+            "type": 3,
+            "api": "csp_Wogg",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": {
+                "site": "https://tv.yydsys.cc",
+                "urls": [
+                    "https://pan.yydsys.de",
+                    "https://yydsys.de5.net",
+                    "https://tv.214521.xyz"
+                ],
+                "name": "多多"
+            }
+        },
+        {
+            "key": "ouge",
+            "name": "「盘」欧歌",
+            "type": 3,
+            "api": "csp_Wogg",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": {
+                "site": "https://woog.nxog.eu.org",
+                "urls": [
+                    "https://woog.430520.xyz"
+                ],
+                "name": "欧歌"
+            }
+        },
+        {
+            "key": "huajuan",
+            "name": "「盘」花卷",
+            "type": 3,
+            "api": "csp_Wogg",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 60,
+            "ext": {
+                "site": "https://www.aihuajuan.top",
+                "name": "花卷"
+            }
+        },
+        {
+            "key": "huban",
+            "name": "「盘」虎斑",
+            "type": 3,
+            "api": "csp_Wogg",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "timeout": 30,
+            "ext": {
+                "site": "http://43.248.128.118:16969",
+                "name": "虎斑"
+            }
+        },
+        {
+            "key": "xiaoban",
+            "name": "「盘」小斑",
+            "type": 3,
+            "api": "csp_Wogg",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "timeout": 30,
+            "ext": {
+                "site": "http://43.248.128.118:12512",
+                "name": "小斑"
+            }
+        },
+        {
+            "key": "tgsou",
+            "name": "「盘」TG搜",
+            "type": 3,
+            "api": "csp_TgSou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "timeout": 60
+        },
+        {
+            "key": "pansou",
+            "name": "「盘」PanSou",
+            "type": 3,
+            "api": "csp_PanSou",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "timeout": 60
+        },
+        {
+            "key": "guazi",
+            "name": "「直」瓜子",
+            "type": 3,
+            "api": "csp_Guazi",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 60
+        },
+        {
+            "key": "dmghg",
+            "name": "「直」动漫共和国",
+            "type": 3,
+            "api": "csp_Dmghg",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 60
+        },
+        {
+            "key": "push_agent",
+            "name": "推送",
+            "type": 3,
+            "api": "csp_Push",
+            "hide": 1,
+            "searchable": 0,
+            "changeable": 0,
+            "timeout": 60
+        }
+    ],
+    "notice": "免费分享，请勿付费！"
+}
